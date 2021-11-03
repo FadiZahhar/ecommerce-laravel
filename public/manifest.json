@@ -1,6 +1,8 @@
 {
   "short_name": "Easy E-Commerce",
   "name": "Easy E-Commerce",
+  "description": "Easy E-Commerce System",
+  "lang": "en-US",
   "icons": [
     {
       "src": "favicon.ico",
