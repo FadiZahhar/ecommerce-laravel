@@ -3,6 +3,11 @@
   "name": "Easy E-Commerce",
   "description": "Easy E-Commerce System",
   "lang": "en-US",
+  "start_url": "/",
+  "display":"standalone",
+  "orientation": "portrait",
+  "theme_color":"#002e62",
+  "background_color":"#ffffff",
   "icons": [
     {
       "src": "favicon.ico",
