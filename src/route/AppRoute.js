@@ -1,19 +1,26 @@
 import React, { Component, Fragment } from 'react'
-import { Router, Route, Switch } from 'react-router'
-import HomePage from '../pages/HomePage'
+import { Router, Route, Switch } from "react-router";
+//import ContactPage from '../pages/ContactPage';
+import HomePage from '../pages/HomePage';
+//import PrivacyPage from '../pages/PrivacyPage';
 import ProductDetailsPage from '../pages/ProductDetailsPage';
+//import PurchasePage from '../pages/PurchasePage';
+//import RefundPage from '../pages/RefundPage';
+//import UserLoginPage from '../pages/UserLoginPage';
 
 class AppRoute extends Component {
-    render() {
-        return (
-            <Fragment>
-                <Switch>
-                    <Route exact to="/" component={HomePage} />
-                    <Route exact path="/productdetails" component={ProductDetailsPage} />
-                </Switch>
-            </Fragment>
-        )
-    }
+     render() {
+          return (
+     <Fragment>
+          <Switch>
+               <Route exact path="/" component={HomePage} />
+
+               <Route exact path="/productdetails" component={ProductDetailsPage} />
+          </Switch>
+
+     </Fragment>
+          )
+     }
 }
 
 export default AppRoute
