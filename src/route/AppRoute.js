@@ -9,6 +9,7 @@ import ProductDetailsPage from '../pages/ProductDetailsPage';
 //import UserLoginPage from '../pages/UserLoginPage';
 import NotificationPage from '../pages/NotificationPage';
 import FavouritePage from '../pages/FavouritePage';
+import UserLoginPage from '../pages/UserLoginPage';
 
 class AppRoute extends Component {
      render() {
@@ -22,6 +23,8 @@ class AppRoute extends Component {
                <Route exact path="/notification" component={NotificationPage} />
 
                <Route exact path="/favourite" component={FavouritePage} />
+          
+               <Route exact path="/login" component={UserLoginPage} />
           </Switch>
 
      </Fragment>

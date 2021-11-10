@@ -3,15 +3,31 @@ import Categories from '../components/home/Categories'
 import Collection from '../components/home/Collection'
 import FeaturedProducts from '../components/home/FeaturedProducts'
 import NewArrival from '../components/home/NewArrival'
+import FooterDesktop from '../components/common/FooterDesktop'
+import FooterMobile from '../components/common/FooterMobile'
+import NavMenuDesktop from '../components/common/NavMenuDesktop'
+import NavMenuMobile from '../components/common/NavMenuMobile'
 
-class HomePage extends Component {
+export class HomePage extends Component {
     render() {
         return (
             <Fragment>
-                <FeaturedProducts />
+                <div className="Desktop">
+                <NavMenuDesktop/>
+                </div>
+            <div className="Mobile">
+                <NavMenuMobile/>
+                </div> 
+                <FeaturedProducts/>
                 <NewArrival />
                 <Collection />
                 <Categories />
+                <div className="Desktop">
+                    <FooterDesktop/>
+                    </div>
+                    <div className="Mobile">
+                    <FooterMobile/>
+                    </div>
             </Fragment>
         )
     }
