@@ -9,6 +9,9 @@ import NavMenuDesktop from '../components/common/NavMenuDesktop'
 import NavMenuMobile from '../components/common/NavMenuMobile'
 
 export class HomePage extends Component {
+    componentDidMount(){
+        window.scroll(0,0)
+    }
     render() {
         return (
             <Fragment>
