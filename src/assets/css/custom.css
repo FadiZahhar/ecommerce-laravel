@@ -8,9 +8,13 @@
 @import "navMenuDesktop.css";
 @import "navMenuMobile.css";
 @import "typo.css";
+<<<<<<< HEAD
 @import "megaMenuMobile.css";
 @import "responsive.css";
 @import "megaMenuAll.css";
+=======
+@import "productDetails.css";
+>>>>>>> 9a08aaf99d0828817df5bfa668ff242dcb8b7368
 
 body{
     background-color: #ffffff;
